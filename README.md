@@ -1,4 +1,4 @@
-# Description
+## Description
 
 ASharp is an adaptive sharpening filter.
 
@@ -6,13 +6,19 @@ Only the luma plane will be processed.
 
 This is [a port of the VapourSynth plugin ASharp](https://github.com/dubhater/vapoursynth-asharp).
 
-# Usage
+### Requirements:
+
+- AviSynth 2.60 / AviSynth+ 3.4 or later
+
+- Microsoft VisualC++ Redistributable Package 2022 (can be downloaded from [here](https://github.com/abbodi1406/vcredist/releases))
+
+### Usage:
 
 ```
 ASharp (clip, float "T", float "D", float "B", bool "hqbf")
 ```
 
-## Parameters:
+### Parameters:
 
 - clip\
     A clip to process. It must be in YUV 8..16-bit planar format.
